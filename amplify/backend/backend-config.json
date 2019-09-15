@@ -7,5 +7,17 @@
 				"securityType": "API_KEY"
 			}
 		}
+	},
+	"auth": {
+		"cognito797af5a1": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"amplifyAndroid": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }
