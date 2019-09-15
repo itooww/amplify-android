@@ -1,3 +1,4 @@
+#Android studio generated
 *.iml
 .gradle
 /local.properties
@@ -12,3 +13,6 @@
 /captures
 .externalNativeBuild
 .cxx
+
+#sensitive file
+amplify/team-provider-info.json
