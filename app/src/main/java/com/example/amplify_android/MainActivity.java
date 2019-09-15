@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 .awsConfiguration(new AWSConfiguration(getApplicationContext()))
                 .build();
 
+        runMutation();
+        runQuery();
+        subscribe();
     }
 
     public void runMutation(){
